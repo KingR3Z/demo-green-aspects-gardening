@@ -79,7 +79,7 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Sarah Langford", rating: 5, text: "Please don't pull out in front of bike riders when driving your liveried vans on the road. Especially when it's raining. It reflects poorly on your business when you needlessly endanger people. ", date: "3 years ago" },
+    { name: "Sarah Langford", rating: 1, text: "Please don't pull out in front of bike riders when driving your liveried vans on the road. Especially when it's raining. It reflects poorly on your business when you needlessly endanger people.", date: "3 years ago", badge: "Local Guide" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
